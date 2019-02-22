@@ -1,0 +1,14 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "try": {
+      "description": "A blank schematic.",
+      "factory": "./try"
+    },
+    "mfs": {
+      "description": "my first schematic.",
+      "factory": "./my-first-schema",
+      "schema": "./my-first-schema/schema.json"
+    }
+  }
+}
